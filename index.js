@@ -8,6 +8,7 @@ const employees = [];
 
 function initApp() {
     addMember();
+    startHTML();
 }
 
 function addMember() {
@@ -109,6 +110,71 @@ function addHtml(member) {
         const id = member.getId();
         const email = member.getEmail();
         let data = '';
-        
-    })
+        if (role === "Engineer") {
+            const gitHub = member.getGithub();
+            data = `<div class="col-6">
+            <div class="card mx-auto mb-3" style="width: 18rem">
+            <h5 class="card-header">${name}<br /><br />Engineer</h5>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">ID: ${id}</li>
+                <li class="list-group-item">Email Address: ${email}</li>
+                <li class="list-group-item">GitHub: ${gitHub}</li>
+            </ul>
+            </div>
+        </div>`;
+        } else if (role === "Intern") {
+            const school = member.getSchool();
+            data = `<div class="col-6">
+            <div class="card mx-auto mb-3" style="width: 18rem">
+            <h5 class="card-header">${name}<br /><br />Intern</h5>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">ID: ${id}</li>
+                <li class="list-group-item">Email Address: ${email}</li>
+                <li class="list-group-item">School: ${school}</li>
+            </ul>
+            </div>
+        </div>`;
+        } else {
+            const officePhone = member.getOfficeNumber();
+            data = `<div class="col-6">
+            <div class="card mx-auto mb-3" style="width: 18rem">
+            <h5 class="card-header">${name}<br /><br />Manager</h5>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">ID: ${id}</li>
+                <li class="list-group-item">Email Address: ${email}</li>
+                <li class="list-group-item">Office Phone: ${officePhone}</li>
+            </ul>
+            </div>
+        </div>`
+        }
+        console.log("adding team member");
+        fs.appendFile("./output/team.html", data, function (err) {
+            if (err) {
+                return reject(err);
+            };
+            return resolve();
+        });
+    });
 }
+function finishHtml() {
+    const html = ` </div>
+    </div>
+    
+</body>
+</html>`;
+
+    fs.appendFile("./output/team.html", html, function (err) {
+        if (err) {
+            console.log(err);
+        };
+    });
+    console.log("end");
+}
+
+// addMember();
+// startHtml();
+// addHtml("hi")
+// .then(function() {
+// finishHtml();
+// });
+initApp();
