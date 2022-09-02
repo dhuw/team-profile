@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "------------------------------\r ## Project Description\r A back end application to build profiles for all members on a given team",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/dhuw/team-profile#readme",
   "dependencies": {
-    "inquirer": "^9.1.1"
+    "inquirer": "^9.1.1",
+    "node-fetch": "^2.6.1"
   }
 }
