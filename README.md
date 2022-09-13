@@ -16,7 +16,7 @@
   - npm install
   
   ## Links
- Youtube Walkthrough
+  https://youtu.be/EG9j-JIVRmc
   ## License
   ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
   <br />
