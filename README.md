@@ -10,12 +10,13 @@
   - [License](#license)
   - [Contributing](#contributing)
   - [Screenshot](#screenshots)
+  - [Testing](#testing)
   ## Installation
   - npm init
   - npm install
   
   ## Links
- Youtube Walkthrough
+  https://youtu.be/EG9j-JIVRmc
   ## License
   ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
   <br />
@@ -23,7 +24,11 @@
   ## Contributing
   👪 Dylan
   ## Screenshots
-  ✏️ N/A
+  ![teammain](https://user-images.githubusercontent.com/101857547/189793154-d3a613cb-e3b7-4089-aefb-816a63dfbcdb.png)
+  ![teamtest](https://user-images.githubusercontent.com/101857547/189793162-40467d89-78c7-42ff-80d9-1cf38e747236.png)
+
+  ## Testing
+  Testing uses jest and all tests pass in current config
   <br />
   <br />
   :octocat: Find me on GitHub: [dhuw](https://github.com/dhuw)<br />
