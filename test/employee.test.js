@@ -1,5 +1,13 @@
 const employee = require("../lib/employee");
 
+
+describe('#indexOf()', function() {
+  it('should return -1 when not present', function() {
+    assert.equal([1,2,3].indexOf(4), -1)
+  })
+})
+
+
 describe("employee", () => {
     it("Can instantiate employee instance", () => {
         const e = new employee();
