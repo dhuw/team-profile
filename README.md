@@ -1,48 +1,32 @@
-# Homework 10
-## Team Profile Generator
-------------------------------
-## Project Description
-A back end application to build profiles for all members on a given team
+<h1 align="center">Employee Management System 👋</h1>
+  
+  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
+  ## Description
+  🔍 A mock company's system of managing Employees, their roles and different departments. 
+  ## Table of Contents
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Links](#links)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Screenshot](#screenshots)
+  ## Installation
+  - npm init
+  - npm install
+  
+  ## Links
+ *link*
+  ## License
+  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
+  <br />
+  This application is covered by the MIT license. 
+  ## Contributing
+  👪 Dylan
+  ## Tests
+  ✏️ N/A
+  <br />
+  <br />
+  :octocat: Find me on GitHub: [dhuw](https://github.com/dhuw)<br />
+  <br />
+  ✉️ Email me with any questions: hazlewood.dyl@gmail.com<br /><br />
 
-## Languages, APIs, and Libraries Used
-</br>=======================
-
-
-
-## Contributor(s)
-
- Dylan
-- https://github.com/dhuw
-
-## User Story 
-
-AS a , I WANT to , SO THAT  
-
-#### Who are we building this for? 
-
-For major corparations to use to make profiles for their team mates
-
-
-#### What is the user trying to achieve? 
-
-
-The user will be able to set up a profile for their dog and scroll through other users profiles to find potential play mates
-
-
-#### Why do they want to achieve this?
-
-To make an organized way of generating profiles
-
-## Deployed Links
-*Deployed page url*
-
-## Screenshots
-
-*mobile*
-
-*tablet*
-
-*desktop*
-
-
-Uses MIT License
