@@ -1,5 +1,5 @@
 const employee = require("../lib/employee");
-
+const assert = require('assert');
 
 describe('#indexOf()', function() {
   it('should return -1 when not present', function() {
@@ -58,7 +58,7 @@ describe("employee", () => {
         
     describe("getRole", () => {
         it("getRole() should return \"employee\"", () => {
-            const testValue = "employee";
+            const testValue = "Employee";
             const e = new employee("Alice", 1, "test@test.com");
             expect(e.getRole()).toBe(testValue);
         });
